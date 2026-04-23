@@ -10,7 +10,6 @@ body{
 .header {
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
     align-items: center;
     padding: 20px 60px;
     background: linear-gradient(to right, #3E2723, #6D4C41);
@@ -214,7 +213,8 @@ h2{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 50px;
+    text-align: center;
+    gap: 20px;
     flex-wrap: wrap;
 }
 .footer {
@@ -222,15 +222,16 @@ h2{
     color: #F5E6D3;
     border-radius: 20px;
     margin: 40px 20px;
-    overflow: hidden;
-    border-radius: 20px;   
+    padding: 30px;  
 }
 .info p {
-    margin: 5px 0;
+    flex: 1 ;
 }
 .redes {
     display: flex;
     gap: 20px;
+    justify-content: center;
+    flex: 1;
 }
 .redes a {
     text-decoration: none;
@@ -246,7 +247,6 @@ h2{
     text-align: center;
 }
 @media screen and (max-width: 700px) {
-
     .header {
         flex-direction: column;
         text-align: center;
