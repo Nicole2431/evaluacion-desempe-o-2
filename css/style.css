@@ -10,6 +10,7 @@ body{
 .header {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     align-items: center;
     padding: 20px 60px;
     background: linear-gradient(to right, #3E2723, #6D4C41);
